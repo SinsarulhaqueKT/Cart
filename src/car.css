@@ -1,0 +1,185 @@
+*{
+    border: 0;
+    margin: 0;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(194, 234, 247);
+
+}
+.navmain{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.carlogopic{
+    width:150px;
+    height: 100px;
+    background: 0;
+    outline: 0;
+    border: 0;
+}
+.cartimg{
+    width:60px;
+    height: 45px;
+}
+.cartblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headtext{
+    color:red ;
+}
+.colorchange{
+    color: green;
+}
+.first-slider-img{
+
+width:100%;
+height:470px ;
+}
+.maincourosel{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.carousel-inner{
+    width: 100%;
+}
+
+.third-slider-img{
+    width:900px;
+    height: 400px;
+   
+}
+.place{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.textplace{
+    width: 580px;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.itemimage{
+    width: 260px;
+    height: 180px;
+}
+
+.images-map{
+    
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows:auto;
+    margin-left: 18px;
+    align-items: center;
+    
+
+}
+
+
+.butmore{
+
+    width: 130px;
+    height: 25px;
+    background-color: rgb(228, 99, 8);
+    border-radius: 10px;
+}
+.cart-link{
+    text-decoration: none;
+    color: black;
+}
+
+.title-head{
+    font-size: 26px;
+}
+.mapped-items{
+    width: 75px;
+}
+.mapped-items:hover{
+    transform: scale(1.06);
+    transition: 1s;
+}
+.avail-text{
+    color: rgb(8, 127, 132);
+}
+.card-img-top{
+    width: 200px;
+}
+.cards{
+    width: 400px;
+    /* background-color: aquamarine; */
+}
+.tyrecards{
+    display: flex;
+    flex-direction: column;
+}
+.tyre-1-pic{
+    width: 160px;
+    height: 200px;
+}
+.tyre-items{
+    width: 350px;
+    display: flex;
+    height: 115rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: cadetblue; */
+}
+.btn-moredetail{
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.pricing{
+    display: flex;
+    width: 180px;
+    height: 30px;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+.linecut{
+    text-decoration: line-through;
+    color: grey;
+}
+.tyre-para{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.tyre-mapped{
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    box-shadow: 0 0 5px grey;
+
+}
+.real-price{
+    font-size: 19px;
+    color: green;
+}
+.both-2-divs{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
